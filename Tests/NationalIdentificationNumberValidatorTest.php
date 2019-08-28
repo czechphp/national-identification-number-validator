@@ -28,6 +28,8 @@ class NationalIdentificationNumberValidatorTest extends TestCase
     public function validProvider()
     {
         return [
+            ['103224/0000'], // male born 2010-12-24 with +20
+            ['108224/0016'], // female born 2010-12-24 with +20
             ['901224/0006'], // male born 1990-12-24
             ['906224/0011'], // female born 1990-12-24
             ['401224/001'], // male born 1940-12-24
