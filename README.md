@@ -1,6 +1,6 @@
-# Czech National identification number Validator
+# Czech [National identification number](https://en.wikipedia.org/wiki/National_identification_number) Validator
 
-> Czech: Validátor rodného čísla
+> Czech: Validátor [rodného čísla](https://cs.wikipedia.org/wiki/Rodn%C3%A9_%C4%8D%C3%ADslo)
 
 [![Build Status](https://travis-ci.com/czechphp/national-identification-number-validator.svg?branch=master)](https://travis-ci.com/czechphp/national-identification-number-validator)
 [![codecov](https://codecov.io/gh/czechphp/national-identification-number-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/czechphp/national-identification-number-validator)
