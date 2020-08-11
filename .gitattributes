@@ -1,6 +1,7 @@
 * text=auto
+* eol=lf
 
 # ignore for dist
-/Tests export-ignore
-/.travis.yml export-ignore
-/phpunit.xml.dist export-ignore
+.* export-ignore
+Tests export-ignore
+phpunit.xml.dist export-ignore
