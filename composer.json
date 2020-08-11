@@ -2,7 +2,7 @@
 	"name": "czechphp/national-identification-number-validator",
 	"type": "library",
 	"description": "Validator for national identification number in the Czech Republic",
-	"keywords": ["national identification number", "validator", "Czech republic", "Czechia", "ČR", "rodné číslo"],
+	"keywords": ["national identification number", "validator", "Czech republic", "Czechia", "rodné číslo"],
 	"license": "MIT",
 	"require": {
 		"php": "^7.1"
@@ -19,16 +19,14 @@
 	"autoload": {
 		"psr-4": {
 			"Czechphp\\NationalIdentificationNumberValidator\\": ""
-		}
+		},
+		"exclude-from-classmap": [
+			"Tests"
+		]
 	},
 	"autoload-dev": {
 		"psr-4": {
 			"Czechphp\\NationalIdentificationNumberValidator\\Tests\\": "Tests/"
 		}
-	},
-	"scripts": {
-		"test": [
-			"phpunit"
-		]
 	}
 }
